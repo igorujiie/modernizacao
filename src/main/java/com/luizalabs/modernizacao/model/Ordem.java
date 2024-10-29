@@ -11,9 +11,10 @@ import java.util.List;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Order {
-    private String orderId;
-    private String total;
+public class Ordem {
+
+    private int orderId;
+    private double total;
     private String date;
     private List<Produto> products;
 

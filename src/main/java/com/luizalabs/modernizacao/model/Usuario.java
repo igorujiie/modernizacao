@@ -15,5 +15,5 @@ public class Usuario {
 
     private int userId;
     private String name;
-    private List<Order> orders;
+    private List<Ordem> orders;
 }
